@@ -1,0 +1,19 @@
+1695346055842	geckodriver	INFO	Listening on 127.0.0.1:63178
+1695346058982	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63179" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofilekwu2y0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695346059359	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695346059449	Marionette	INFO	Listening on port 63207
+WebDriver BiDi listening on ws://127.0.0.1:63179
+Read port: 63207
+1695346059676	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:63179/devtools/browser/2cf2a3f0-7c92-4901-9c20-7fb7fd534091
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://opensource-demo.orangehrmlive.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://opensource-demo.orangehrmlive.com."
+1695346067955	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1695346069075	Marionette	INFO	Stopped listening on port 63207
+JavaScript warning: https://opensource-demo.orangehrmlive.com/web/dist/js/chunk-vendors.js?v=1689053487449, line 128: Script terminated by timeout at:
+5668/_refresh/this._request<@https://opensource-demo.orangehrmlive.com/web/dist/js/chunk-vendors.js?v=1689053487449:128:367
+
+Dynamically enable window occlusion 1

@@ -1,0 +1,18 @@
+1695345915065	geckodriver	INFO	Listening on 127.0.0.1:62418
+1695345918233	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62419" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofileLBZLwI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695345918641	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695345918739	Marionette	INFO	Listening on port 62454
+WebDriver BiDi listening on ws://127.0.0.1:62419
+Read port: 62454
+1695345918973	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:62419/devtools/browser/fe458cd1-1d82-4e76-a29f-780ff4168d50
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://opensource-demo.orangehrmlive.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://opensource-demo.orangehrmlive.com."
+1695345926980	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1695346524242	Marionette	INFO	Stopped listening on port 62454
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+console.error: (new Error("Data is not ready.", "resource://gre/modules/JSONFile.sys.mjs", 178))
