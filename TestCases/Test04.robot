@@ -5,11 +5,20 @@ Library    SeleniumLibrary
 ${url}    https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 ${browser}    gc
 
+*** Test Cases ***
+Tc001 login test
+    Se connecter a l'application orange demo    ${url}    ${browser}
+    Saisir le nom d'utilisateur
+    Saisir le mot de passe
+    Cliquer sur le bouton login
+    Valider l'affichage de la page d'accueil
+    Fermer l'application
+
+
 *** Keywords ***
 Se connecter a l'application orange demo
-    [Documentation]    Ce keyword est créé par Haithem
-    ...    pour ouvrir une page web
-    Open Browser    ${url}    ${browser}
+    [Arguments]    ${Myurl}    ${Mybrowser}
+    Open Browser    ${Myurl}    ${Mybrowser}
     Maximize Browser Window
     Sleep    2
 
@@ -31,3 +40,4 @@ Valider l'affichage de la page d'accueil
 Fermer l'application
     Close Browser
     
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.5 on win32)" generated="20230928 20:29:59.634" rpa="false" schemaversion="4">
+<suite id="s1" name="Test03" source="C:\Users\Admin\Desktop\Formation SQL\Session 3\TECHNIQUES D'AUTOMATISATION DE TESTS I\cours 3 21-09-2023\TestCases\Test03.robot">
+<test id="s1-t1" name="TC05" line="26">
+<kw name="Log" library="BuiltIn">
+<arg>test5</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230928 20:29:59.860" level="INFO">test5</msg>
+<status status="PASS" starttime="20230928 20:29:59.859" endtime="20230928 20:29:59.860"/>
+</kw>
+<tag>performance</tag>
+<status status="PASS" starttime="20230928 20:29:59.859" endtime="20230928 20:29:59.860"/>
+</test>
+<test id="s1-t2" name="TC06" line="30">
+<kw name="Log" library="BuiltIn">
+<arg>test6</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230928 20:29:59.861" level="INFO">test6</msg>
+<status status="PASS" starttime="20230928 20:29:59.861" endtime="20230928 20:29:59.861"/>
+</kw>
+<tag>performance</tag>
+<status status="PASS" starttime="20230928 20:29:59.860" endtime="20230928 20:29:59.861"/>
+</test>
+<status status="PASS" starttime="20230928 20:29:59.636" endtime="20230928 20:29:59.861"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="2" fail="0" skip="0">performance</stat>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="Test03">Test03</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
